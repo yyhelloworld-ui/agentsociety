@@ -25,7 +25,7 @@ services:
     volumes:
       - postgresql:/bitnami/postgresql
     environment:
-      POSTGRESQL_PASSWORD: CHANGE_ME
+      POSTGRESQL_PASSWORD: Yao123ABC
 
   emqx:
     image: emqx:5.8.1

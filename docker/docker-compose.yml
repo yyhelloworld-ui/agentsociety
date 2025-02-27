@@ -12,7 +12,7 @@ services:
       - mlflow:/app
     environment:
       MLFLOW_AUTH_CONFIG_PATH: /auth/basic_auth.ini
-      PG_DSN: postgresql://postgres:CHANGE_ME@postgresql:5432/postgres
+      PG_DSN: Yao123ABC
     depends_on:
       - postgresql
 

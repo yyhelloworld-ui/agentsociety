@@ -45,3 +45,5 @@ services:
 volumes:
   mlflow:
   postgresql:
+cd docker # make sure the folder contains the same files as the ones in the repo
+docker compose up -d
